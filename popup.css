@@ -3,6 +3,8 @@ body {
   font-family: 'Ubuntu', -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -moz-osx-font-smoothing: grayscale;
+  background: #101010;
+  color: #fff;
 }
 
 ul.main-list {
@@ -10,7 +12,7 @@ ul.main-list {
 }
 
 ul.main-list > li {
-  border-bottom: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(36, 36, 36);
   list-style: none;
   padding-bottom: 8px;
   padding-top: 5px;
@@ -18,6 +20,16 @@ ul.main-list > li {
 
 div > label {
   cursor: pointer;
+}
+
+input[type="checkbox"] {
+  background: #353535;
+}
+
+select {
+  background: #353535;
+  color: #fff;
+  border: 1px solid grey;
 }
 
 .move-right {
@@ -31,11 +43,13 @@ div > label {
 .space-span {
   margin: 0px 30%;
 }
+
 .whitelist-div ul {
   position: relative;
   padding: 0;
   margin: 0;
 }
+
 .whitelist-div ul li {
   list-style: none;
   padding-bottom: 8px;
@@ -44,7 +58,7 @@ div > label {
 }
 
 .whitelist-arrow {
-  fill: black;
+  fill: #fff;
   width: 16px;
   cursor: pointer;
 }
@@ -63,17 +77,20 @@ div > label {
   overflow: hidden;
   width: 100%;
 }
+
 .whitelist-item-title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 80%;
 }
+
 .whitelist-del-icon {
   cursor: pointer;
   margin: 0;
   padding: 0;
 }
+
 .hidden {
   display: none;
 }
